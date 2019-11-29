@@ -1,0 +1,121 @@
+#background-identif{
+    background-image: url("images/logo.jpg");
+    background-size: contain;
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ded1bb;
+}
+#form-identif{
+    width:100%;
+    max-width:400px;
+    display:block;
+    margin:auto;
+    background-color: rgba(255,255,255, 0.9);
+    padding: 20px;
+    top: 160px;
+    position: relative;
+    border-radius: 15px;
+}
+#form-identif h1{
+    text-align:center;
+    color: #383a22;
+}
+#form-identif input{
+    width:100%;
+}
+#form-identif #remember_me{
+    width:20px;
+}
+#form-identif #submit{
+    background-color: #383a22;
+    color: white;
+    padding: 15px;
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    cursor:pointer;
+}
+.gaz{
+	margin: 15px 30px;
+    border: 1px solid #383a22;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:white;
+}
+.retour-page{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fa6d47;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px !important;
+    text-align: center;
+    width: 100%;
+    display: block;
+    max-width: 200px;
+    margin: auto;
+    transition-delay: 2s;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    background-color: #fa6d47;
+    font-size: 23px;
+    margin-bottom: 30px !important;
+}
+.retour-page:hover{
+    color: #fa6d47;
+    background-color: white;
+    transition-delay: 2s;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+.navbar{
+    padding: 15px 30px;
+    background-color: #383a22;
+    color:white;
+}
+.navbar a{
+    padding: 0 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.navbar span{
+    padding-left:475px;
+    font-size:20px;
+}
+#envoi-tweet{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+    background-color:#fa6d47;
+    color:white;
+    border: 1px solid #fa6d47;
+    border-radius: 15px;
+    cursor:pointer;
+    font-size:20px;
+    margin-top: 45px !important;
+}
+#formulaire{
+    margin: 15px 30px;
+}
+#formulaire .text-form{
+    border: 1px solid #383a22;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom:20px;
+}
+#formulaire .text-height{
+    height: 175px;
+}

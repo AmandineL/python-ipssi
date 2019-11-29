@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<style>
-		.gaz{
-			margin: 10px auto;
-			border:1px solid black;
-		}
-	</style>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
+    <a class="retour-page" href="/gaz">Tweeter</a>
+
 	{% for g in gaz %}
 	<div id="gazouille-{{loop.index}}" class="gaz">
 		<div>{{g.user}}</div>
 		<div>{{g.text}}</div>
 	</div>
 	{% endfor %}
-</body>
-</html>
+
+
+{% endblock %}
