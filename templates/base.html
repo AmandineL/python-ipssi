@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - tweeter</title>
+        {% else %}
+        <title>tweeter</title>
+        {% endif %}
+        <link rel="stylesheet" type="text/css" href="/static/style.css" />
+    </head>
+    <body>
+        <div class="navbar">
+            Tweeter JuanAmande:
+            <span>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                    {{ message }}
+                    {% endfor %}
+                {% endif %}
+                {% endwith %}
+            </span>
+            <a href="{{ url_for('login') }}">Login</a>
+            <a href="{{ url_for('timeline') }}">Tweet</a>
+        </div>
+
+        {% block content %}
+
+        {% endblock %}
+
+    </body>
+</html>
